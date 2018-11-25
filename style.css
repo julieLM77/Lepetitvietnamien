@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'The Second Choice';
+  src: url('./font/The Second Choice.ttf');
+
+  }
+
+
+  html, body {
+    margin: 0%; 
+    padding-left: 1%; 
+    padding-right: 3%;
+    padding-top: 1%;
+  }
+  body {
+  
+    width: 100%;
+    height: 100%;
+   
+    font-family: 'The Second Choice';
+  }
+ 
+
+
+.logo
+{	height: 200px;
+  width: 200px;
+  margin-top : -32%;
+  position : relative;
+
+}
+
+.drapeau
+{	height: 30px;
+  width: 50px;
+  position : relative;
+margin-right: 20%;
+}
+
+
+
+.titre {
+font-family: 'The Second Choice';
+font-size: 1.8em;
+margin-top: 8%;
+
+}
+
+.soustitre{
+  font-family: 'The Second Choice';
+  font-size: 1.2em;
+}
+
+.imgpres{
+  height: 80%;
+  width: 50%;
+}
+
+
+.localisation{
+  
+  color:black;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+
+
+.horaire
+{
+text-align: center;}
+
+.photo{
+    text-align: center;
+    font-family: 'The Second Choice';
+}
+
+.uk-margin-remove /*taille bottom noir*/
+{
+  font-size: 1em;
+}
+
+.horaire{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+   .titremenu{
+    text-align: center;
+    font-family: 'The Second Choice';
+
+    font-size: 4em;
+
+   }
+  
+   .titremenu:hover {
+    letter-spacing: 15px;
+    cursor: pointer;
+
+}
+
+.menu1{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 1.5em;
+}
+  
+.soustitremenu{
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-family: 'The Second Choice';
+}
+
+.plat{
+  font-weight: bold;
+  
+}
+
+
+
+
+.foot {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 1%;
+    
+  }
+
+
+.facebook:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.instagram:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.google:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) /*tablet*/
+{
+ 
+
+  .uk-position-relative{/*nav*/
+  margin-top: 0;
+ }
+ .uk-heading-line /*ligne titre*/
+ {display:none;}
+
+ .titre{
+  display: none;
+}
+.soustitre{
+  display: none;
+  
+  }
+  .logo{
+    width: 30%;
+    height: 30%;
+    margin-top : 10%;
+    margin-left: 35%;
+  }
+
+  .uk-transition-slide-bottom /*taille bottom noir*/
+  {
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 375px)
+{
+
+    body {
+    margin: 0%; 
+    padding-left: 1%; 
+    padding-right: 1%;
+    padding-top: 1%;
+  }
+
+
+ .uk-position-relative{ /*nav*/
+   margin-top: -2%;
+ 
+ }
+
+
+ .titremenu{
+   font-size: 1.5em;
+ }
+  .menu1{ 
+    width: auto;
+    text-align: left;
+    font-size: 0.8em;
+  }
+
+  .map{
+    display: none;
+  }
+.localisation{
+
+  text-align: center;
+  margin: none;
+}
+
+.apropos{
+ 
+font-size: 1em;
+  text-align: justify;
+ 
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+}
+.textimg{
+  display: none;
+}
+
+
+  .uk-alert-warning{
+    display: none;
+  }
+
+.titre{
+  font-size : 0.5em;
+  margin-bottom: -30%;
+}
+.soustitre{
+  font-size : 0.5em;
+  
+  }
+
+  .logo{
+    width: 40%;
+    height: 40%;
+    margin-top : 20%;
+    margin-left: 30%;
+  }
+
+
+  .drapeau{
+    display: none;
+  }
+  
+
+ 
+
+.uk-transition-slide-bottom /*taille bottom noir*/
+{
+  display: none;
+}
+
+
+.localisation{
+
+font-size: 1em;
+
+margin-left: 2%;
+}
+
+.foot{
+  font-size : 1em;
+}
+
+}
+
+
+@media screen and (max-width: 320px)
+{
+  .uk-position-relative{ /*nav*/
+    margin-top: -2%;
+    margin-left: -5%;
+    font-size: 0.5em;
+
+  }
+  body {
+    margin: 0%; 
+    padding-left: 8%; 
+   padding-right: 1%;
+    padding-top: 1%;
+  }
+
+
+
+}
+
+
+
+ 
+
