@@ -286,6 +286,9 @@ margin-left: 2%;
 .text{
   font-size:1em;
 }
+.drapeau{
+  display: none;
+}
 }
 
 
@@ -304,7 +307,9 @@ margin-left: 2%;
     padding-top: 1%;
   }
 
-
+  .drapeau{
+    display: none;
+  }
 
 }
 
