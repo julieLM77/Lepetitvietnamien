@@ -64,7 +64,10 @@ margin-top: 8%;
 
 }
 
-
+.text{
+  font-size: 1.8em;
+  font-family: 'The Second Choice';
+}
 
 .horaire
 {
@@ -250,9 +253,10 @@ font-size: 1em;
 
   .logo{
     width: 40%;
-    height: 40%;
-    margin-top : 20%;
-    margin-left: 30%;
+    height: 40%;   
+
+    margin-top :  20%;
+    margin-left:   30%;
   }
 
 
@@ -279,7 +283,9 @@ margin-left: 2%;
 .foot{
   font-size : 1em;
 }
-
+.text{
+  font-size:1em;
+}
 }
 
 
