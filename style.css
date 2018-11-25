@@ -154,7 +154,9 @@ text-align: center;}
 
 @media screen and (max-width: 768px) /*tablet*/
 {
- 
+ .drapeau{
+   display: none;
+ }
 
   .uk-position-relative{/*nav*/
   margin-top: 0;
